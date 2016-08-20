@@ -1,7 +1,7 @@
 {
-  "name": "app-shell",
+  "name": "riot-app-shell",
   "version": "0.0.1",
-  "description": "Application Shell",
+  "description": "Riot.js Application Shell",
   "main": "src/app.js",
   "scripts": {
     "start": "npm run build && npm run serve",
@@ -15,6 +15,10 @@
   },
   "author": "Stuart Runyan",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shrunyan/riot-app-shell"
+  },
   "devDependencies": {
     "ava": "0.16.0",
     "babel": "6.5.2",
